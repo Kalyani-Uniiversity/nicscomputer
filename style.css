@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    min-height:100vh;
+    width:100%;
+}
+.logo_menu{
+    background-color: #ffff00;
+    display:flex;
+    margin:0;
+}
+.logo_menu img{
+    width:50px;
+    position:absolute;
+    padding:10px 80px;
+
+}
+.logo_menu p{
+    color:#0000ff;
+    font-family:sans-serif;
+    font-size:50px;
+    font-weight:600;
+    text-align:center;
+    line-height:90px;
+    text-transform:capitalize;
+    margin:auto;
+    
+}
+.logo_menu a{
+    font-family:sans-serif;
+    font-size:15px;
+    line-height:2.4286;
+    font-weight:700;
+    font-style:italic;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 20px 5px;
+}
+
+@media(max-width:700px){
+    .logo_menu p{
+        font-size:40px;
+        line-height:4;
+    }
+    .logo_menu a{
+        display:none;
+    }
+    .logo_menu img{
+        width:70px;
+    }
+}
+
+.main_menu{
+    background-color: #1497e6;
+    display: flex;
+
+}
+.text{
+    color:white;
+
+}
+.logo{
+    position:absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px 5px;
+}
+.logo #fa-brand{
+    color:white;
+    transition: 0.5s;
+}
+.logo #fa-brand:hover{
+    color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color:white;
+    text-decoration:none;
+    font-size:19px;
+    line-height:25px;
+    transition:0.5s;
+  }
+  li a:hover{
+      color:#0000ff;
+      background-color:#ffff00;
+  }
+
+@media(max-width:700px){
+      #nonee{
+          display:none;
+      }
+  }
+  .footer{
+     background-color: #1497e6;
+     color:white;
+     padding:10px;
+     text-align:center;
+  }
+  .form{
+      text-align:left;
+      background-color: #aed6f1;
+      display:inline-block;
+      padding:10px;
+      width:80%;
+      margin:50px;
+  }
+  .formm{
+      width:100%;
+  }
+  .white{
+      background-color: #f7f7f2;
+      width:85%;
+      margin:50px;
+  }
+  .brown{
+      background-color: #ffa500;
+      height:30px;
+      width:70px;
+  }
+  span{
+      color:red;
+  }
+  .stylebanner{
+      width:90%;
+      margin:30px;
+  }
+  .text-box{
+      text-align:center;
+      padding:50px;
+  }
